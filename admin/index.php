@@ -1,6 +1,30 @@
 <?php
-echo "<h1>Aqui é a página principal do administrador</h1>"
-
+    include_once("VerUrl.php");
 ?>
+ <html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>F1</title>
+        <link rel="stylesheet" href="../css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../css/admin/app-topo-admin.css" type="text/css">
 
-<a href="admin/telaLogin.php"></a>
+    </head>
+    <body>
+        <?php
+            include("includes/topo.php");
+            include("includes/menu.php");
+        ?>
+        <main>
+            <?php
+                $red = new VerUrl();
+                $red -> trocarUrl(@$_GET['secao']);
+                include("includes/rodape.php");
+            ?>
+        </main>
+        <script src="../js/bootstrap.bundle.js"></script>
+    </body>
+
+</html>
+
+
+

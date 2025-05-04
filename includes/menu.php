@@ -7,7 +7,7 @@
         <title></title>
         <link rel="stylesheet" href="css/app-menu.css" type="text/css">
     </head>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #E10600;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="d-flex align-items-center">
             <a href="?secao=home" class="me-4">
                 <img src="images/f1_logo.png">

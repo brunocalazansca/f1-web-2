@@ -1,3 +1,7 @@
+.navbar {
+    background-color: #E10600;
+}
+
 .navbar-nav .nav-link:hover {
     background-color: black;
 }
