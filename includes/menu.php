@@ -17,7 +17,7 @@
                     <li class="nav-item me-3"><a href="?secao=home" class="text-white nav-link">Home</a></li>
                     <li class="nav-item me-3"><a href="?secao=equipes" class="text-white nav-link">Equipes</a></li>
                     <li class="nav-item me-3"><a href="?secao=pilotos" class="text-white nav-link">Pilotos</a></li>
-                    <li class="nav-item me-3"><a href="?secao=corrida" class="text-white nav-link">Corrida</a></li>
+                    <li class="nav-item me-3"><a href="?secao=corridas" class="text-white nav-link">Corrida</a></li>
                 </ul>
             </div>
         </div>
