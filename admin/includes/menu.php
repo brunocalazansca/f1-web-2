@@ -24,6 +24,9 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="?secao=cadastrarNoticia">Cadastrar notícia</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="?secao=deletarNoticia">Deletar notícia</a>
+                </li>
             </ul>
         </div>
         <img class="img-custom" src="../images/macqueen.png">
