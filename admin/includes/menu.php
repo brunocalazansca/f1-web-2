@@ -25,7 +25,13 @@
                     <a class="nav-link text-white" href="?secao=cadastrarNoticia">Cadastrar notícia</a>
                 </li>
                 <li class="nav-item">
+                    <p class="nav-link text-white">|</p>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link text-white" href="?secao=deletarNoticia">Deletar notícia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="?secao=alterarNoticia">Alterar notícia</a>
                 </li>
             </ul>
         </div>
