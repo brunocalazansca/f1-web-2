@@ -3,7 +3,6 @@
     include_once ("../../model/Noticia.php");
     include_once ("../../classes/manipulaDados.php");
 
-
     function convert($String) {
         return iconv ("UTF-8", "ISO8859-1", $String);
     }
@@ -32,7 +31,6 @@
         '{$noticia->getAutor()}'
     "
     );
-
 
     $conexao->insert();
     echo $conexao->getStatus();
