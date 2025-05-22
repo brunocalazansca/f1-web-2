@@ -14,6 +14,11 @@
             include("includes/topo.php");
             include("includes/menu.php");
         ?>
+        <?php
+            session_start();
+            $usuario = $_SESSION['usuario'];
+            echo "<h1>Bem vindo, $usuario!</h1>";
+        ?>
         <main>
             <?php
                 $red = new VerUrl();

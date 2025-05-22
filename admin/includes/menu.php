@@ -33,8 +33,12 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="?secao=alterarNoticia">Alterar notícia</a>
                 </li>
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link text-white ms-auto mb-2 mb-lg-0" href="logout.php">Sair</a>-->
+<!--                </li>-->
             </ul>
         </div>
+        <a class="nav-link text-white ms-auto mb-2 mb-lg-0" href="logout.php">Sair</a>
         <img class="img-custom" src="../images/macqueen.png">
     </div>
 </nav>
