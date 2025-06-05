@@ -1,7 +1,7 @@
 <?php
 
-    include_once ("../../model/Noticia.php");
-    include_once ("../../classes/manipulaDados.php");
+    include_once("../../../model/Noticia.php");
+    include_once("../../../classes/manipulaDados.php");
 
     $id = $_POST['id'];
 

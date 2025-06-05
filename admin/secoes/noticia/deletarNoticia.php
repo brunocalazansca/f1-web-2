@@ -15,7 +15,7 @@ include_once('../classes/manipulaDados.php');
                 <p class="card-text"><?= $noticia["descricao"] ?></p>
                 <p class="card-text"><small class="text-body-secondary"><?= $noticia["data"] ?> - <?= $noticia["autor"] ?></small></p>
             </div>
-            <form action="controller/DeletarNoticia.php" method="POST" enctype="multipart/form-data">
+            <form action="controller/noticia/DeletarNoticia.php" method="POST" enctype="multipart/form-data">
                 <input type="hidden" name="id" value="<?= $noticia["id"] ?>">
                 <div class="d-flex justify-content-end">
                     <button type="submit" class="btn btn-danger">

@@ -33,7 +33,7 @@ foreach ($noticias as $noticia) {
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                 </div>
 
-                <form action="controller/AlterarNoticia.php" method="POST" enctype="multipart/form-data">
+                <form action="controller/noticia/AlterarNoticia.php" method="POST" enctype="multipart/form-data">
                     <div class="modal-body">
                         <div class="mb-3">
                             <label for="titulo_<?= $noticia['id'] ?>" class="form-label">Título</label>

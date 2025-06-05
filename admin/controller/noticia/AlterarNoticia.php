@@ -1,7 +1,7 @@
 <?php
 
-    include_once ("../../model/Noticia.php");
-    include_once ("../../classes/manipulaDados.php");
+    include_once("../../../model/Noticia.php");
+    include_once("../../../classes/manipulaDados.php");
 
     function convert($String) {
         return iconv ("UTF-8", "ISO8859-1", $String);
@@ -18,7 +18,7 @@
     if (!empty($_FILES['arquivo']['name'])) {
         $nomeArquivoSalvo = uniqid() . "_" . convert($_FILES['arquivo']['name']);
         $urlBanco = "imgNoticias/" . $nomeArquivoSalvo;
-        $urlLocalSalvo = '../../imgNoticias/' . $nomeArquivoSalvo;
+        $urlLocalSalvo = '../../../imgNoticias/' . $nomeArquivoSalvo;
 
         if (!move_uploaded_file($_FILES['arquivo']['tmp_name'], $urlLocalSalvo)) {
             echo "Erro ao mover o arquivo!";

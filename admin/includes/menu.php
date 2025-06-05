@@ -13,25 +13,25 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="?secao=cadastrarEquipe">Cadastrar equipe</a>
+                    <a class="nav-link text-white" href="?secao=equipe/cadastrarEquipe">Cadastrar equipe</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="?secao=cadastrarPiloto">Cadastrar piloto</a>
+                    <a class="nav-link text-white" href="?secao=piloto/cadastrarPiloto">Cadastrar piloto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="?secao=cadastrarCorrida">Cadastrar corrida</a>
+                    <a class="nav-link text-white" href="?secao=corrida/cadastrarCorrida">Cadastrar corrida</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="?secao=cadastrarNoticia">Cadastrar notícia</a>
+                    <a class="nav-link text-white" href="?secao=noticia/cadastrarNoticia">Cadastrar notícia</a>
                 </li>
                 <li class="nav-item">
                     <p class="nav-link text-white">|</p>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="?secao=deletarNoticia">Deletar notícia</a>
+                    <a class="nav-link text-white" href="?secao=noticia/deletarNoticia">Deletar notícia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="?secao=alterarNoticia">Alterar notícia</a>
+                    <a class="nav-link text-white" href="?secao=noticia/alterarNoticia">Alterar notícia</a>
                 </li>
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link text-white ms-auto mb-2 mb-lg-0" href="logout.php">Sair</a>-->

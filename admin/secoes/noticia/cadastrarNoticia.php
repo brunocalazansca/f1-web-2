@@ -8,7 +8,7 @@
             <h4 class="mb-0">Cadastrar Notícia</h4>
         </div>
         <div class="card-body">
-            <form method="post" action="controller/CadastrarNoticia.php" enctype="multipart/form-data">
+            <form method="post" action="controller/noticia/CadastrarNoticia.php" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="titulo" class="form-label">Título da Notícia</label>
                     <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Digite o título da notícia" required>
