@@ -61,7 +61,6 @@ class ManipulaDados extends Conexao {
         while ($row = self::listQr($this->qr)) {
             array_push ($dados, $row);
         }
-       // echo json_decode($dados);
         return $dados;
     }
 
